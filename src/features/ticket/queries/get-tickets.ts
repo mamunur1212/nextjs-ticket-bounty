@@ -1,7 +1,7 @@
-import { prisma } from '@/lib/prisma';
+import { db } from '@/lib/db';
 
 export const getTickets = async () => {
-  return await prisma.ticket.findMany({
+  return await db.ticket.findMany({
     orderBy: {
       createdAt: 'desc',
     },
