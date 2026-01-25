@@ -18,9 +18,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/the-road-to-next-app.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/ticket/actions/delete-ticket.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ticket/actions/delete-ticket.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/ticket/queries/get-ticket.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ticket/queries/get-ticket.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/ticket/queries/get-tickets.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ticket/queries/get-tickets.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1769340169400</updated>
-      <workItem from="1769340170694" duration="3810000" />
+      <workItem from="1769340170694" duration="5343000" />
     </task>
     <servers />
   </component>
