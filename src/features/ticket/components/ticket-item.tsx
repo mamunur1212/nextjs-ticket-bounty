@@ -7,7 +7,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { deleteTicket } from '@/features/ticket/actions/delete-ticket';
 import { TICKET_ICONS } from '@/features/ticket/constants';
 import { ticketPath } from '@/paths';
-import { getTicket } from '@/features/ticket/queries/get-ticket';
 
 type TicketItemProps = {
   ticket: Ticket;
@@ -15,8 +14,6 @@ type TicketItemProps = {
 };
 
 const TicketItem = async ({ ticket, isDetail }: TicketItemProps) => {
-  const ticketItem = await getTicket(ticket?.id);
-  // console.log('Ticket Item Per Item:', ticketItem);
   const detailButton = (
     <Button variant="outline" size="icon" asChild>
       <Link prefetch={true} href={ticketPath(ticket.id)}>
