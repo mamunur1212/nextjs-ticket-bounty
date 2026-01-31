@@ -105,15 +105,15 @@ export const mockTicketService = {
   },
 
   findUnique: async (options: { where: { id: string } }) => {
-    const ticket = mockTickets.find(t => t.id === options.where.id);
+    const ticket = mockTickets.find((t) => t.id === options.where.id);
     return ticket || null;
   },
 
   delete: async (options: { where: { id: string } }) => {
-    const index = mockTickets.findIndex(t => t.id === options.where.id);
+    const index = mockTickets.findIndex((t) => t.id === options.where.id);
     if (index !== -1) {
       const deleted = mockTickets[index];
-      mockTickets = mockTickets.filter(t => t.id !== options.where.id);
+      mockTickets = mockTickets.filter((t) => t.id !== options.where.id);
       return deleted;
     }
     throw new Error('Ticket not found');

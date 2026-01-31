@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { createTicket } from "../actions/create-ticket";
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
+import { createTicket } from '../actions/create-ticket';
 import { Label } from '@/components/ui/label';
 
 const TicketCreateForm = () => {

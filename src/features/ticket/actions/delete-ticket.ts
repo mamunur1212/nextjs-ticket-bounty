@@ -10,6 +10,6 @@ export const deleteTicket = async (id: string) => {
     where: { id },
   });
 
-  revalidatePath(ticketsPath())
+  revalidatePath(ticketsPath());
   redirect(ticketsPath());
 };
