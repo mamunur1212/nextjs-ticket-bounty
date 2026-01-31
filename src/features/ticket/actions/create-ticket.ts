@@ -9,7 +9,6 @@ export const createTicket = async (formData: FormData) => {
     title: formData.get("title"),
     content: formData.get("content"),
   };
-  console.log('Creating ticket with data:', data);
 
   await prisma.ticket.create({
     data: {
