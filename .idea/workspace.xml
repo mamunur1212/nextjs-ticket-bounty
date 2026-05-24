@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="027434d6-93e8-4312-82a6-b81de9a3721c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/form/form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/sonner.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/ticket/actions/upsert-ticket.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ticket/actions/upsert-ticket.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/ticket/components/ticket-upsert-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ticket/components/ticket-upsert-form.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +18,44 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="04e65707-7cd1-4be8-bbfe-ae90270408af" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="04e65707-7cd1-4be8-bbfe-ae90270408af" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="gpt-5-mini" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
+  </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
       <entry key="_C:/Users/mamun/Music/nextjs-starter" value="3910DNK1gREcaqPTnEeDjPvvrk0" />
       <entry key="_C:/Users/mamun/Music/the-road-to-next-app" value="38kOairqq8RxyWz3zRMHoS6sSa5" />
       <entry key="_C:/projects/nextjs-ticket-bounty" value="391CdfdxffFz85AlJBHV2JpFXSJ" />
     </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="GPT-5 mini" />
+      <entry key="agent-panel" value="GPT-5 mini" />
+      <entry key="edit-panel" value="GPT-5 mini" />
+    </selectedModels>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,7 +100,7 @@
     &quot;npm.lint.executor&quot;: &quot;Run&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\projects\\nextjs-ticket-bounty\\node_modules\\prettier&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.stylesheets.stylelint&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\projects\\nextjs-ticket-bounty\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -151,7 +185,14 @@
       <workItem from="1769854280281" duration="102000" />
       <workItem from="1769854529222" duration="1856000" />
       <workItem from="1770028200108" duration="323000" />
-      <workItem from="1770042259080" duration="2313000" />
+      <workItem from="1770042259080" duration="5563000" />
+      <workItem from="1770048550500" duration="11000" />
+      <workItem from="1770301054675" duration="1576000" />
+      <workItem from="1771186834997" duration="189000" />
+      <workItem from="1771187086269" duration="299000" />
+      <workItem from="1779543457009" duration="57000" />
+      <workItem from="1779543576747" duration="3867000" />
+      <workItem from="1779644041554" duration="4038000" />
     </task>
     <servers />
   </component>
