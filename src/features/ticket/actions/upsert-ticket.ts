@@ -2,10 +2,11 @@
 
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import z from 'zod';
+import { z } from 'zod';
 import {
   ActionState,
   fromErrorToActionState,
+  toActionState,
 } from '@/components/form/utils/to-action-state';
 import { prisma } from '@/lib/prisma';
 import { ticketPath, ticketsPath } from '@/paths';
@@ -34,7 +35,7 @@ export const upsertTicket = async (
       create: data,
     });
   } catch (error) {
-    return fromErrorToActionState(error, formData);
+    return fromErrorToActionState(error);
   }
 
   revalidatePath(ticketsPath());
@@ -42,8 +43,6 @@ export const upsertTicket = async (
   if (id) {
     redirect(ticketPath(id));
   }
-  return {
-    message: 'Ticket upserted successfully.',
-    fieldErrors: {},
-  };
+
+  return toActionState('SUCCESS', 'Ticket created');
 };
