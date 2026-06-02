@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="027434d6-93e8-4312-82a6-b81de9a3721c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/form/form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sonner.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/ticket/components/ticket-upsert-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ticket/components/ticket-upsert-form.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,8 +151,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.lint-fix" />
         <item itemvalue="npm.lint" />
+        <item itemvalue="npm.lint-fix" />
         <item itemvalue="npm.format" />
       </list>
     </recent_temporary>
@@ -193,6 +187,9 @@
       <workItem from="1779543457009" duration="57000" />
       <workItem from="1779543576747" duration="3867000" />
       <workItem from="1779644041554" duration="4038000" />
+      <workItem from="1780320483502" duration="635000" />
+      <workItem from="1780341488455" duration="620000" />
+      <workItem from="1780408852554" duration="514000" />
     </task>
     <servers />
   </component>
